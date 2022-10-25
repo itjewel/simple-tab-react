@@ -1,9 +1,9 @@
 
-import SimpleTabs from "./pages/SimpletTabs";
+import SinglePageTab from "./pages/SinglePageTab";
 function App() {
   return (
     <div className="App">
-      <SimpleTabs />
+      <SinglePageTab />
     </div>
   );
 }

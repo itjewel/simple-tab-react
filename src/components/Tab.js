@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Tab = ({ children, active = 0 }) => {
+  // console.log(children)
   const [activeTab, setActiveTab] = useState(active);
   const [tabsData, setTabsData] = useState([]);
 
